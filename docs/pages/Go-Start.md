@@ -105,9 +105,9 @@ go
 
 Returns,
 
-| -----------------------------+----------------------- |
+|-----------------------------+-----------------------|
 | Go commands | Description |
-|: --------------------------- :|: --------------------- :|
+|:---------------------------:|:---------------------:|
 | build | compile packages and dependencies |
 | clean | remove object files |
 | doc | show documentation for package or symbol |
@@ -127,9 +127,8 @@ Returns,
 
 {% include sources-and-uses.md %}
 
-1. {:#GoSuccinctly}Code lines courtesy of [Go Succinctly by Mark Lewin](https://www.twitter/gisapps){:title="Click to Visit the Twitter page of Mark Lewin"}{:target="_blank"}. Published by © 2017 [Syncfusion.com](https://www.syncfusion.com/){:title="Click to Visit Syncfusion dot com"}{:target="_blank"}.
+1. {:#GoSuccinctly}Code lines courtesy of [Go Succinctly by Mark Lewin](https://www.syncfusion.com/resources/techportal/details/ebooks/Go_Succinctly){:title="Click to Visit the Go Succinctly page at Syncfusion dot com"}{:target="_blank"}. Published by © 2017 [Syncfusion.com](https://www.syncfusion.com/){:title="Click to Visit Syncfusion dot com"}{:target="_blank"}.
 
 ### External Sources
 
 - The [Project Source Links](https://mminail.github.io/Shell/Source-Shell-Links.htm){:title="Click to Visit the Source Links page of the Shell Lessons Project at GitHub pages"}{:target="_blank"} page of the Shell Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
-
