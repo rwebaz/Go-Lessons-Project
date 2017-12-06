@@ -82,13 +82,13 @@ GOPATH=/Users/yourHomeDirectory/documents/My_GO
 
 **Note**. The previous $HOME entry in bash corresponds to the home directory of your development machine.
 
-### Anchor Links
+### Anchor Test
 
 This is a test sentence for the internal page anchor #2 in red => For: Go Succinctly [[2](#GoSuccinctly){:.red}].
 
 The reference points to the second internal citation [[Syncfusion dot com](#GoSuccinctly){:.red}] below.
 
-By clicking on either the red [2] above, or the red [Newline dot co] ...
+By clicking on either the red [2] above, or the red [Syncfusion dot co] ...
 {:.red}
 
 The reader will be hyperlinked to the bottom of the page directly to the referenced citation.
