@@ -88,7 +88,7 @@ This is a test sentence for the internal page anchor #2 in red => For: Go Succin
 
 The reference points to the second internal citation [[Syncfusion dot com](#GoSuccinctly){:.red}] below.
 
-By clicking on either the red [2] above, or the red [Syncfusion dot co] ...
+By clicking on either the red [2] above, or the red [Syncfusion dot com] ...
 {:.red}
 
 The reader will be hyperlinked to the bottom of the page directly to the referenced citation.
@@ -124,6 +124,10 @@ Returns,
 | tool | run specified go tool |
 | version | print Go version |
 | vet | run go tool vet on packages |
+
+**Note**. The columns in the above table are set to be *centered* via Kramdown.
+
+Therefore, both the title row and the data rows should all display as *centered* within their respective columns.
 
 {% include sources-and-uses.md %}
 
