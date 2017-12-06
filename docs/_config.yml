@@ -6,8 +6,8 @@
 theme: "jekyll-theme-cayman"
 # repository: MMINAIL/mminail.github.io
 title: "Go Lessons Project"
-tagline: "A GitHub repo of Lessons and Articles that emphasize the GETH and Solidity engines"
-description: "A GitHub repo of Lessons and Articles that emphasize the GETH and Solidity engines"
+tagline: "A GitHub repo of Lessons and Articles that emphasize the GO development engine"
+description: "A GitHub repo of Lessons and Articles that emphasize the GO development engine"
 twitter:
     username: "mminail"
 author:
