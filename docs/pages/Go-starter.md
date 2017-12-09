@@ -1,9 +1,9 @@
 ---
-title: Go Start
+title: Go starter
 layout: default
 navigation_weight: 9
 ---
-# Go Start
+# Go starter
 
 Create a new **My_GO** directory from the Finder in Mac Os High Sierra at the location of your choice.
 
@@ -95,7 +95,7 @@ The reader will be hyperlinked to the bottom of the page directly to the referen
 
 ### Go Commands
 
-Other commands available in **Go** are listed using the following one-word code statement at the local Terminal prompt `$`, as follows:
+Other commands available in **Go** are listed below using the following one-word code statement at the local Terminal prompt `$`, as follows:
 
 ```liquid
 {% raw %}
@@ -128,6 +128,165 @@ Returns,
 **Note**. The columns in the above table are set to be *centered* via Kramdown.
 
 Therefore, both the title row and the data rows should all display as *centered* within their respective columns.
+
+## Main dot go
+
+Your *main dot go* file should reside in the subdirectory of your instance under the `src` subdirectory of your **My_GO** directory.
+
+**Note**. To move down a level `..` using the bash *change directory* `cd` command, run the following command from your local Terminal `$` prompt, as follows:
+
+```liquid
+{% raw %}
+cd ..
+{% endraw %}
+```
+
+### The Go file format
+
+The **Go** file format starts with a `package main` statement and is followed by your `import` statement, if any, and your *main function* `func main`, as follows:
+
+```liquid
+{% raw %}
+package main
+
+import (
+    "fmt"
+)
+
+// Original main function given
+func main() {
+    fmt.Printf("Hello there, World!\n")
+}
+
+// Note. You may declare and assign static variables regular way in Go ( var, name, type ), as follow:
+
+func main() {
+    // Declare and assign variables
+    var message string = (`Hello there, World!`)
+    var newline string = ("\n")
+
+    // Declare methods
+    fmt.Printf(message + newline)
+}
+{% endraw %}
+```
+
+### Execution
+
+Create the following three subdirectories inside your **My_GO** directory ...
+
+1. `bin`
+
+1. `pkg`
+
+1. `src`
+
+Under `src` place your *main dot go** program inside a `hello` subdirectory
+
+### Change Directories
+
+Invoke the bash *change directory* `cd` command
+
+- From the local Terminal prompt `$` of your **My_GO** directory
+
+- `cd` from your **My_GO** directory to the `src` subdirectory, as follows:
+
+```liquid
+{% raw %}
+cd src
+{% endraw %}
+```
+
+Next, `cd` once again from the `src` subdirectory to the `hello` subdirectory, as follows:
+
+```liquid
+{% raw %}
+cd hello
+{% endraw %}
+```
+
+From the `hello` subdirectory of your `src` subdirectory ( within your **My_GO** directory ) ...
+
+- Run the following command from the local Terminal prompt `$` to execute your program
+
+```liquid
+{% raw %}
+go run main.go
+{% endraw %}
+```
+
+Returns,
+
+```liquid
+{% raw %}
+Hello there, World!
+{% endraw %}
+```
+
+## Go-static operator
+
+The *Go-static* operator `:=` condenses the declaration and assignment steps when creating variables, constants, and other features of the **Go** programming language.
+
+Recall from above the *regular way* declaration and assignment of the `message` and `newline` static variables, both of the `string` type, as follows:
+
+```liquid
+{% raw %}
+// Declare and assign variables
+    var message string = (`Hello there, World!`)
+    var newline string = ("\n")
+{% endraw %}
+```
+
+**Note.** The declaration and assignment steps are separated by a single `=` sign when declaring and assigning a static variable *regular way* in **Go**.
+
+### Consolidation
+
+The *Go-static* operator `:=` allows for the consolidation of the declaration and assignment steps of a static variable, as follows:
+
+```liquid
+{% raw %}
+// Create variables using the Go-static operator
+    message := `Hello there, World!`
+    newline := "\n"
+{% endraw %}
+```
+
+**Note**. You can even kiss the parenthesis `(...)` goodbye, as well, when creating a variable using the *Go-static* operator `:=`
+
+### Demonstration
+
+Let's now plug that new-fangled set of static variables created with the *Go-static* operator `:=` into our main `func`, run the program, and check the results, as follows:
+
+```liquid
+{% raw %}
+package main
+
+import (
+    "fmt"
+)
+
+func main() {
+    // Create variables using the Go-static operator
+    message := `Hello there, World!`
+    newline := "\n"
+
+    // Declare methods
+    fmt.Printf(message + newline)
+}
+{% endraw %}
+```
+
+Returns,
+
+```liquid
+{% raw %}
+Hello there, World!
+{% endraw %}
+```
+
+**Note**. The **Go** language infers the type of static variable created from the input given by the programmer on the right-side of the *Go-static* operator `:=`
+
+## Subtitle
 
 {% include sources-and-uses.md %}
 
