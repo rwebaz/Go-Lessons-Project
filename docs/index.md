@@ -1,26 +1,24 @@
 ---
 title: Home Page
 layout: default
+excerpt: Go tags and Go statements mimic underlying Javascript methods ...
+version: Index Template md Dtd 02-16-18
 navigation_weight: 1
+categories: template
 ---
+{% comment %}{% raw %}{% include page-banner-blank.md %}{% endraw %}{% endcomment %}
+
 # Go Lessons Project Home Page
 
-{{ site.tagline }}
+{{ page.excerpt }}
 
-## Table O Contents
-
-![MMI™ Flammarion Logo Badge](assets/img/svg/MMI-Medmj-Org-Got-Tree-Flammarion-Person-Through-Celestial-Sphere-circle-543-x-543.svg){:width="120px"}
-
-- TOC
-{:toc}
-
-**Note**. The above **Live** rendition of the **MMI™ Flammarion Logo Badge** ( if visible ) is an `( .svg )` image file set to the dimensions of 120.00 px X 120.00 px.
+{% include toc.md %}
 
 ## Issue
 
 The **Issue** of a successful legal argument is prefaced by a concise, to the point coin flip.
 
-Should it be, or should it not?
+Should it be, or should it not be?
 
 ### The Socratic Method
 
@@ -38,23 +36,7 @@ What is the current view as expressed by the majority of federal districts and s
 
 What is the minority view as expressed by the dissent?
 
-## Analysis
-
-The analysis reviews both sides of the legal coin in depth
-
-### The Code
-
-Highlight the code ...
-
-```liquid
-{% raw %}
-[Medcoin™ Crypto Currency Project: Ping-back Home Page](https://rwebaz.github.io/Medcoin-Crypto-Currency-Project/){:target="_blank"}
-{% endraw %}
-```
-
-### Live
-
-Render the code live ...
+{% include analysis-code-live.md %}
 
 ## Conclusion
 
@@ -68,8 +50,32 @@ Delineate the steps ...
 
 Expound the solution ...
 
+### Description
+
+{{ site.description }}
+
+{% include raw-code-anchors.md %}
+
+## Import Code
+
+More to come ...
+
+## Last Subtitle
+
+**Note**. The above synopsis was derived from an article written by Blank [[2](#BLANK){:.red}].
+
+### Raw Code Block
+
+```liquid
+{% raw %}
+Enjoy the successful output!
+{% endraw %}
+```
+
 {% include sources-and-uses.md %}
 
 ### External Sources
 
-- The [Project Source Links](https://mminail.github.io/Go/Source-Go-Links.htm){:title="Click to Visit the Source Links page of the Go Lessons Project at GitHub pages"}{:target="_blank"} page of the Go Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+- {:#SOURCELINKS}The [Project Source Links](https://mminail.github.io/Go/Source-Go-Links.htm){:title="Click to Visit the Source Links page of the Go Lessons Project at GitHub pages"}{:target="_blank"} page of the Go Lessons Project. Published by © 2017 - 2018 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+
+**Note**. This page crafted with {{ page.version }}.
