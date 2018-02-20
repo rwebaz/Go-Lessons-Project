@@ -1,6 +1,7 @@
 ---
 
 ---
+/* Style template scss Dtd 02-11-18 */
 /* @import 'jekyll-theme-cayman'; */
 @import "{{ site.theme }}";
 
@@ -30,6 +31,10 @@
     border: 3px groove green;
 }
 
+.red-groove {
+  border: 3px groove red;
+}
+
 /* Set the color of the anchor links */
 a {
     text-decoration: none;
@@ -53,6 +58,14 @@ li.active a {
 
 .red {
     color: #DC143C; /* Crimson Red */
+}
+
+.indian-red {
+  color: rgb(207,103,75); /* Indian Red */
+}
+
+.light-dodger-blue {
+  color: #337ab7; /* Light Dodger Blue */
 }
 
 .btn {
@@ -82,6 +95,20 @@ li.active a {
 }
 /* End Imgage Zoom-out From thumb */
 
+/* ------------------------------------------
+    Begin Image Zoom-out From Alternative svg
+------------------------------------------ */
+
+.img-logo-badge-icon {
+  width: calc(5% - 0px);
+  height: auto;
+}
+
+/* Where the "plus" sign represents the adjacent sibling selector in Css3 */
+.img-logo-badge-icon:hover + .icon-zoom {
+  width: calc(10% - 0px);
+}
+
 /* Set the collapsable Responsive Image */
 img {
     /* min-width: 340px; */
@@ -94,7 +121,11 @@ img {
 .img-responsive {
     width: calc(100% - 0px);
     max-width: 100%;
-    }
+}
+
+.img-rounded {
+  border-radius:6px;
+}
 /* End the collapsable Responsive Image */
 
 /* Set the Primary Nav*/
@@ -116,4 +147,24 @@ nav.nav-primary li a {
 	padding: 1%;
     border-radius: 6px;
 }
-/* End Setting the Primary Nav*/
+/* End Setting the Primary Nav */
+
+/* Set the Table Row */
+.center {
+    text-align: center;
+}
+/* End Setting the Table Row */
+
+/* Set the Table Border */
+.groove-table {
+    border: 5px groove green;
+}
+/* End Setting the Table Border */
+
+/* Set the horizontal tabs of the TOC */
+.horizontal {
+  float: left;
+  list-style: none;
+  margin: 10px;
+}
+   
