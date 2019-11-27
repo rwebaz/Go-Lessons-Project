@@ -2,22 +2,19 @@
 title: The Flammarion
 layout: default
 excerpt: The Flammarion is an ancient portrait of a medieval man poking his head into the ether ...
-version: Flammarion Page Template md Dtd 02-06-18 pm
+hint: If you don't give me and my crew some food, I will cause the sun to stop shining! ~ Christopher Columbus, circa 1500 CE
+repo: Go-Lessons-Project
+ver_date: 11-20-19
 navigation_weight: 9
-categories: template
+categories: page
 ---
-# {{ page.title }}
-
-{{ page.excerpt }}
 
 {% include toc.md %}
 
+## Deep Origins
+
+> **Hint**. {{ page.hint }}
+
 {% include flammarion-svg.md %}
 
-{% include sources-and-uses.md %}
-
-### External Sources
-
-- The [Project Source Links](https://mminail.github.io/Go/Source-Go-Links.htm){:title="Click to Visit the Source Links page of the Go Lessons Project at GitHub pages"}{:target="_blank"} page of the Go Lessons Project. Published by © 2017 - 2018 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
-
-**Note**. This page crafted with {{ page.version }}.
+{% include patreon-link.md %}
