@@ -2,21 +2,19 @@
 title: Go Start
 layout: default
 excerpt: The Go language infers the type of static variable created  ...
-version: Page Template md Dtd 02-16-18
+hint: Create a new My_GO directory from the Finder in Mac Os High Sierra at the location of your choice.
+repo: Go-Lessons-Project
+ver_date: 11-26-19
 navigation_weight: 8
-categories: template
+categories: page
 ---
-# {{ page.title }}
-
-{{ page.excerpt }}
-
 {% include toc.md %}
 
 ## Visual Studio Code
 
-- Create a new **My_GO** directory from the Finder in Mac Os High Sierra at the location of your choice.
+> **Hint**. {{ page.hint }}
 
-- Now, fire up a copy of your favorite IDE or text editor.
+Now, fire up a copy of your favorite IDE or text editor.
 
 ### Go Version
 
@@ -86,17 +84,6 @@ GOPATH=/Users/yourHomeDirectory/documents/My_GO
 ```
 
 **Note**. The previous $HOME entry in bash corresponds to the home directory of your development machine.
-
-### Anchor Test
-
-This is a test sentence for the internal page anchor #2 in red => For: Go Succinctly [[2](#GOSUCCINCTLY){:.red}].
-
-The reference points to the second internal citation [[Syncfusion dot com](#GOSUCCINCTLY){:.red}] below.
-
-By clicking on either the red [2] above, or the red [Syncfusion dot com] ...
-{:.red}
-
-The reader will be hyperlinked to the bottom of the page directly to the referenced citation.
 
 ### Go Commands
 
@@ -291,28 +278,16 @@ Hello there, World!
 
 **Note**. The **Go** language infers the type of static variable created from the input given by the programmer on the right-side of the *Go-static* operator `:=`
 
-## Import Code
+## Last Subtitle
 
 More to come ...
 
-## Last Subtitle
+***
 
-**Note**. The above synopsis was derived from an article written by Blank [[2](#BLANK){:.red}].
+**Note**. The above synopsis was derived from an article written by Mark Lewin [[1](#MARKLEWIN){:.red}].
 
-### Raw Code Block
+1. {:#MARKLEWIN}Code lines courtesy of [Go Succinctly by Mark Lewin](https://www.syncfusion.com/resources/techportal/details/ebooks/Go_Succinctly){:title="Click to Visit the Go Succinctly page at Syncfusion dot com"}{:target="_blank"}. Published by © 2017 [Syncfusion.com](https://www.syncfusion.com/){:title="Click to Visit Syncfusion dot com"}{:target="_blank"}.
 
-```liquid
-{% raw %}
-Enjoy the successful output!
-{% endraw %}
-```
+***
 
-{% include sources-and-uses.md %}
-
-1. {:#GOSUCCINCTLY}Code lines courtesy of [Go Succinctly by Mark Lewin](https://www.syncfusion.com/resources/techportal/details/ebooks/Go_Succinctly){:title="Click to Visit the Go Succinctly page at Syncfusion dot com"}{:target="_blank"}. Published by © 2017 [Syncfusion.com](https://www.syncfusion.com/){:title="Click to Visit Syncfusion dot com"}{:target="_blank"}.
-
-### External Sources
-
-- {:#SOURCELINKS}The [Project Source Links](https://mminail.github.io/Shell/Source-Shell-Links.htm){:title='Click to Visit the Source Links page of the Shell Lessons Project at Concepts Library'}{:target='_blank'} page of the Shell Lessons Project at Concepts Library. Published by © 2017 - 2018 [Mminail.github.io](https://mminail.github.io/){:title='Click to Visit the Home Page of the Concepts Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation'}{:target='_blank'}.
-
-**Note**. This page crafted with {{ page.version }}.
+{% include patreon-link.md %}

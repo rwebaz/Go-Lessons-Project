@@ -2,59 +2,21 @@
 title: Format Input
 layout: default
 excerpt: The Go language package fmt implements formatted input ...
-version: Page Template md Dtd 02-16-18
+hint: Place the intro paragraph ie.) the 'hypothesis' here ...
+repo: Go-Lessons-Project
+ver_date: 11-26-19
 navigation_weight: 8
-categories: commandline
+categories: page
 ---
-# {{ page.title }}
-
-{{ page.excerpt }}
-
 {% include toc.md %}
 
 ## Preparation
 
+> **Hint**. {{ page.hint }}
+
 **Go** language package `fmt` functions are analogous to the **C** language `printf` y `scanf` methods, but are *simpler* to invoke.
 
-### Ruby Version Manager
-
-From the local Terminal prompt `$` of your **My_GO** directory ...
-
-Set the **Ruby Version Manager** instance, as follows:
-
-```liquid
-{% raw %}
-rvm use 2.4.1
-{% endraw %}
-```
-
-Returns,
-
-```liquid
-{% raw %}
-Using /Users/yourHomeDirectory/.rvm/gems/ruby-2.4.1
-{% endraw %}
-```
-
-### Node Version Manager
-
-From the local Terminal prompt `$` of your **My_GO** directory ...
-
-```liquid
-{% raw %}
-nvm use 8.9.2
-{% endraw %}
-```
-
-Returns,
-
-```liquid
-{% raw %}
-Now using node v8.9.2 (npm v5.5.1)
-{% endraw %}
-```
-
-## Package fmt
+### Package fmt
 
 For documentation on the `fmt` package from the `man` pages of your local Terminal window ...
 
@@ -228,6 +190,8 @@ Use the `Printf` method in your program to print values in *Scientific notation*
 Use the `Printf` method in your program to print *Complex constituent* values ...
 
 String and slice of bytes (treated equivalently with these verbs):
+
+```markdown
 
         %s      the uninterpreted bytes of the string or slice
         %q      a double-quoted string safely escaped with Go syntax
@@ -708,36 +672,18 @@ type Stringer interface {
     to print values passed as an operand to any format that accepts a string
     or to an unformatted printer such as Print.
 
-```liquid
-{% raw %}
-Place code here
-{% endraw %}
 ```
-
-## Import Code
-
-More to come ...
 
 ## Last Subtitle
 
-**Note**. The above synopsis was derived from an article written by Blank [[2](#BLANK){:.red}].
+More to come ...
 
-### Raw Code Block
+***
 
-```liquid
-{% raw %}
-Enjoy the successful output!
-{% endraw %}
-```
+**Note**. The above synopsis was derived from an article written by Blank Author [[1](#BLANKAUTHOR){:.red}].
 
-{% include brackets-ide.md %}
+1. {:#BLANKAUTHOR}[A Narrative of Psychology by Blank Author, Jan #1999](http://cowles.yale.edu/sites/default/files/files/pub/d20/d2069.pdf){:title="Click to Review ..."}{:target="_blank"}
 
-{% include sources-and-uses.md %}
+***
 
-1. {:#BLANK}[The Blank Live at The Blank Festival, 2000](https://youtu.be/Blank){:title='Click to Watch the YouTube video of the Blank Live at the The Blank Festival, 2000'}{:target='_blank'}.
-
-### External Sources
-
-- {:#SOURCELINKS}The [Project Source Links](https://mminail.github.io/Go/Source-Go-Links.htm){:title='Click to Visit the Source Links page of the Go Lessons Project at Concepts Library'}{:target='_blank'} page of the Go Lessons Project at Concepts Library. Published by © 2017 - 2018 [Mminail.github.io](https://mminail.github.io/){:title='Click to Visit the Home Page of the Concepts Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation'}{:target='_blank'}.
-
-**Note**. This page crafted with {{ page.version }}.
+{% include patreon-link.md %}
