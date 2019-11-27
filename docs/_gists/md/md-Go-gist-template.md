@@ -3,7 +3,7 @@ title: Shell Gist
 layout: default
 excerpt: Place the introducing line of text ie.) the 'tagline' here ...
 hint: Place the intro paragraph ie.) the 'hypothesis' here ...
-repo: Zazzle-Hempaz-Project
+repo: Go-Lessons-Project
 ver_date: 11-26-19
 navigation_weight: 8
 categories: page
